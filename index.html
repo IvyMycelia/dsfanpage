@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟 DANIEL SHOTKIN FAN PAGE!!! 🌟</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+        
+        body {
+            background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00, #ff00ff);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            font-family: 'Comic Neue', cursive, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #000;
+        }
+        
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border: 10px solid #ff00ff;
+            padding: 20px;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+        }
+        
+        .header {
+            text-align: center;
+            background: linear-gradient(90deg, #ff0000, #ff00ff, #0000ff, #00ff00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 48px;
+            font-weight: bold;
+            margin: 20px 0;
+            text-shadow: 3px 3px 0px #ffff00;
+        }
+        
+        .marquee {
+            background: #ffff00;
+            padding: 10px;
+            margin: 20px 0;
+            border: 5px dashed #ff00ff;
+            font-size: 24px;
+            font-weight: bold;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        
+        .marquee-content {
+            display: inline-block;
+            animation: scroll 20s linear infinite;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        .blink {
+            animation: blink 1s infinite;
+            color: #ff0000;
+            font-weight: bold;
+        }
+        
+        .spinning {
+            display: inline-block;
+            animation: rotate 3s linear infinite;
+        }
+        
+        .bouncing {
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+        
+        .section {
+            margin: 30px 0;
+            padding: 15px;
+            background: #e0e0ff;
+            border: 5px solid #0000ff;
+            border-radius: 10px;
+        }
+        
+        .section h2 {
+            color: #ff00ff;
+            font-size: 32px;
+            text-align: center;
+            text-decoration: underline;
+            text-shadow: 2px 2px 0px #ffff00;
+            margin-top: 0;
+        }
+        
+        .section h3 {
+            color: #0000ff;
+            font-size: 24px;
+            text-align: center;
+        }
+        
+        .info-box {
+            background: #ffffcc;
+            border: 3px solid #ff6600;
+            padding: 15px;
+            margin: 15px 0;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .info-box ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .info-box ul li {
+            margin: 8px 0;
+        }
+        
+        .star {
+            color: #ffd700;
+            font-size: 24px;
+        }
+        
+        .counter {
+            text-align: center;
+            font-size: 20px;
+            background: #000;
+            color: #00ff00;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            border: 3px solid #00ff00;
+            margin: 20px 0;
+        }
+        
+        .guestbook {
+            background: #ffe0e0;
+            border: 5px dashed #ff0000;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .guestbook h3 {
+            color: #ff0000;
+            text-align: center;
+            font-size: 28px;
+        }
+        
+        .entry {
+            background: #fff;
+            border: 2px solid #000;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        
+        .links {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .links a {
+            display: inline-block;
+            background: #00ff00;
+            color: #000;
+            padding: 10px 20px;
+            margin: 5px;
+            text-decoration: none;
+            border: 3px solid #000;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .links a:hover {
+            background: #ffff00;
+            transform: scale(1.1);
+        }
+        
+        .construction {
+            text-align: center;
+            background: #ffff00;
+            border: 5px solid #ff0000;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .emoji {
+            font-size: 32px;
+        }
+        
+        .centered {
+            text-align: center;
+        }
+        
+        .rainbow-text {
+            background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+            font-size: 22px;
+        }
+        
+        hr {
+            border: none;
+            border-top: 5px dashed #ff00ff;
+            margin: 30px 0;
+        }
+        
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 30px;
+            padding: 10px;
+            background: #f0f0f0;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="spinning">🌟</span>
+            DANIEL SHOTKIN FAN PAGE!!!
+            <span class="spinning">🌟</span>
+        </div>
+        
+        <div class="marquee">
+            <div class="marquee-content">
+                <span class="blink">WELCOME!!!</span> 
+                🎉 BEST PERSON EVER!!! 🎉 
+                <span class="blink">SO COOL!!!</span> 
+                ⭐ AMAZING!!! ⭐ 
+                <span class="blink">CHECK IT OUT!!!</span>
+            </div>
+        </div>
+        
+        <div class="counter">
+            <span class="blink">VISITOR #</span> 1337
+        </div>
+        
+        <div class="construction">
+            <span class="spinning">⚠️</span> 
+            SITE UNDER CONSTRUCTION!!! 
+            <span class="spinning">⚠️</span>
+        </div>
+        
+        <div class="section">
+            <h2>🌟 ABOUT DANIEL SHOTKIN 🌟</h2>
+            <div class="info-box">
+                <p class="centered">
+                    <span class="star">⭐</span> 
+                    <strong>DANIEL IS THE COOLEST PERSON EVER!!!</strong> 
+                    <span class="star">⭐</span>
+                </p>
+                <p>
+                    <strong>Full Name:</strong> Daniel Shotkin<br>
+                    <strong>📍 Hometown:</strong> Westwood, New Jersey<br>
+                    <strong>🏫 High School:</strong> Westwood Regional High School<br>
+                    <strong>🎓 College:</strong> Harvard University, Class of 2029<br>
+                    <strong>📚 Major:</strong> History<br>
+                    <strong>🎤 Voice Part:</strong> Bass (in The Harvard Krokodiloes)
+                </p>
+                <p>
+                    Daniel is <span class="rainbow-text">SUPER TALENTED</span> and does SO MANY 
+                    amazing things!!! Writer, singer, student, activist... he's basically 
+                    everything!!! We're here to celebrate him!!!
+                </p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🧠 WRITER & ESSAYIST!!! 🧠</h2>
+            <div class="info-box">
+                <p>
+                    Daniel writes regular essays and opinion pieces for 
+                    <strong>3 Quarks Daily</strong>!!! It's this respected online publication 
+                    that covers ideas, culture, politics, and literature. His pieces are like 
+                    personal reflections - about how conflict works in life, how he experiences 
+                    major cultural institutions, and thoughts on literature and education. 
+                    <span class="blink">SO DEEP!!!</span>
+                </p>
+                <p class="centered">
+                    <span class="bouncing">✨</span> 
+                    <strong>HIS PUBLISHED ESSAYS:</strong> 
+                    <span class="bouncing">✨</span>
+                </p>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li>📄 <strong>The Contradiction at the Heart of All Conflict</strong> (July 13, 2025)</li>
+                    <li>📄 <strong>Why Do We Care So Much About the Pope?</strong> (May 16, 2025)</li>
+                    <li>📄 <strong>Harvard and Dreaming Big</strong> (Apr 13, 2025)</li>
+                    <li>📄 <strong>Where Did All the Fiction in Fiction Go?</strong> (Feb 16, 2025)</li>
+                    <li>📄 <strong>Election Day Through the Eyes of a Poll Worker</strong> (Dec 20, 2024)</li>
+                    <li>📄 <strong>Kipling, Kim, and Being a Third Culture Kid</strong> (Sep 26, 2024)</li>
+                    <li>📄 <strong>What Affirmative Action Taught Me, from a High School Senior</strong> (Aug 02, 2024)</li>
+                    <li>📄 <strong>The Business of Changing Education</strong> (Jul 01, 2024)</li>
+                </ul>
+                <p class="centered">
+                    <span class="bouncing">✨</span> 
+                    His writing is <strong>LEGENDARY</strong>!!! 
+                    <span class="bouncing">✨</span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📣 COMMUNITY IMPACT & ACTIVISM!!! 📣</h2>
+            <div class="info-box">
+                <p>
+                    Daniel didn't just write and perform - he organized a community fundraiser 
+                    for his beloved Westwood Regional High School physics teacher, 
+                    <strong>Henry Chen</strong>, who was facing a life-threatening health issue!!!
+                </p>
+                <p>
+                    He ran the <span class="blink">"Help Mr. Chen Get a Kidney Transplant"</span> 
+                    GoFundMe campaign!!! Daniel personally wrote the story about Chen's impact on 
+                    students and raised <strong>TENS OF THOUSANDS OF DOLLARS</strong> with 
+                    <strong>HUNDREDS OF SUPPORTERS</strong>!!! 
+                </p>
+                <p class="centered">
+                    <span class="emoji">💚</span> 
+                    <strong>HOW AWESOME IS THAT?!?!</strong> 
+                    <span class="emoji">💚</span>
+                </p>
+                <p>
+                    That shows compassion and leadership beyond academics!!! He got mentioned in 
+                    local news for being such a <span class="rainbow-text">WONDERFUL PERSON</span>!!! 
+                    This shows he has a heart of gold!!! 
+                    <span class="star">⭐</span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🎵 HARVARD KROKODILOES!!! 🎵</h2>
+            <div class="info-box">
+                <p>
+                    Daniel is a member of <strong>The Harvard Krokodiloes</strong>!!! 
+                    That's Harvard's <span class="blink">OLDEST</span> collegiate a cappella group 
+                    (SO COOL!!!)!!! His involvement goes beyond just being listed on a roster - 
+                    he's referenced as a <strong>featured voice</strong> in their performances!!!
+                </p>
+                <ul>
+                    <li>🎤 Voice part: <strong>BASS</strong> (deep and smooth!!!)</li>
+                    <li>🎓 Class of 2029 (Harvard student!!! WOW!!!)</li>
+                    <li>🎭 Performing with an amazing group!!!</li>
+                    <li>⭐ Featured voice in performances (not just background!!!)</li>
+                </ul>
+                <p class="centered">
+                    <span class="bouncing">🎶</span> 
+                    He's making beautiful music!!! 
+                    <span class="bouncing">🎶</span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🎶 PERFORMANCE HIGHLIGHTS!!! 🎶</h2>
+            <div class="info-box">
+                <p>
+                    Daniel performed in at least one <span class="blink">NOTABLE</span> Krokodiloes 
+                    arrangement - a creative <strong>"Mr Blue Sky"</strong> cover that got attention 
+                    from fans and media!!! Online performances often rack up views and shares, and 
+                    this one was <span class="rainbow-text">JUICY</span>!!!
+                </p>
+                <p class="centered">
+                    <span class="bouncing">🎵</span> 
+                    <strong>MR BLUE SKY PERFORMANCE!!!</strong> 
+                    <span class="bouncing">🎵</span>
+                </p>
+                <p>
+                    That's a perfect gallery/concert entry for a fan site!!! If you haven't seen it, 
+                    you're missing out!!! SO GOOD!!!
+                </p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📚 COMPETITIVE BACKGROUND!!! 📚</h2>
+            <div class="info-box">
+                <p>
+                    In high school, Daniel competed academically!!! For example, in 
+                    <strong>New Jersey Academic Decathlon</strong> literature categories, where he 
+                    scored well among peers!!! This shows the <span class="blink">NERD CREDENTIALS</span> 
+                    (and we mean that in the BEST way!!!)!!!
+                </p>
+                <p>
+                    He's super smart and can compete with the best of them!!! Academic Decathlon 
+                    skills are SO IMPORTANT and he's got them!!!
+                </p>
+                <p class="centered">
+                    <span class="star">⭐</span> 
+                    <strong>NERD CHAMPION STATUS!!!</strong> 
+                    <span class="star">⭐</span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>💭 QUOTES REEL!!! 💭</h2>
+            <div class="info-box">
+                <p class="centered">
+                    <span class="bouncing">✨</span> 
+                    <strong>JUICY LINES FROM HIS ESSAYS:</strong> 
+                    <span class="bouncing">✨</span>
+                </p>
+                <p>
+                    <em>"Harvard and Dreaming Big"</em> - about dreaming big and what that means!!!<br>
+                    <em>"The Contradiction at the Heart of All Conflict"</em> - deep thoughts about 
+                    how conflict works in life!!!<br>
+                    <em>"Where Did All the Fiction in Fiction Go?"</em> - thoughts on literature 
+                    (he's SO SMART about books!!!)!!!<br>
+                    <em>"What Affirmative Action Taught Me, from a High School Senior"</em> - 
+                    personal reflections on education and college admissions!!!
+                </p>
+                <p class="centered">
+                    His writing makes you <span class="rainbow-text">THINK</span>!!! 
+                    So good!!!
+                </p>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <div class="section">
+            <h2>💬 WHY WE STAN DANIEL!!! 💬</h2>
+            <div class="info-box">
+                <p class="centered">
+                    <span class="emoji">❤️</span> 
+                    <strong>HE'S AMAZING!!!</strong> 
+                    <span class="emoji">❤️</span>
+                </p>
+                <ul>
+                    <li>✨ Super talented writer (8+ published essays on 3 Quarks Daily!!!)</li>
+                    <li>✨ Kind and caring person (organized GoFundMe for his teacher!!!)</li>
+                    <li>✨ Amazing singer (BASS VOICE in Harvard Krokodiloes!!!)</li>
+                    <li>✨ Featured performer (Mr Blue Sky cover got attention!!!)</li>
+                    <li>✨ Smart competitor (Academic Decathlon literature categories!!!)</li>
+                    <li>✨ Harvard student studying History (Class of 2029!!!)</li>
+                    <li>✨ From Westwood, NJ (hometown hero!!!)</li>
+                    <li>✨ All around AWESOME human being!!!</li>
+                </ul>
+                <p class="centered">
+                    <span class="rainbow-text">BEST PERSON EVER!!!</span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🎯 TRIVIA!!! 🎯</h2>
+            <div class="info-box">
+                <p>
+                    <strong>Favorite topics he writes about:</strong><br>
+                    • Conflict and how it works in life<br>
+                    • Major cultural institutions (like the Pope!!!)<br>
+                    • Literature and fiction<br>
+                    • Education and college admissions<br>
+                    • Being a third culture kid<br>
+                    • Personal reflections on big topics
+                </p>
+                <p>
+                    <strong>Academic Decathlon:</strong> Scored well in New Jersey Academic Decathlon 
+                    literature categories!!! Nerd credentials confirmed!!! 
+                    <span class="star">⭐</span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="links">
+            <h3 class="rainbow-text">CHECK OUT THESE LINKS!!!</h3>
+            <a href="https://www.3quarksdaily.com">3 Quarks Daily</a>
+            <a href="https://www.kroks.com">Harvard Krokodiloes</a>
+            <a href="#">GoFundMe (Mr. Chen)</a>
+            <a href="#">Local News Articles</a>
+        </div>
+        
+        <div class="guestbook">
+            <h3>📖 GUESTBOOK 📖</h3>
+            <p class="centered">
+                <span class="blink">SIGN OUR GUESTBOOK!!!</span>
+            </p>
+            
+            <div class="entry">
+                <strong>SMP58376299</strong> - <em>January 15, 2026</em><br>
+                OMG I read his essay about Harvard and dreaming big and it literally made me cry!!! 
+                So relatable!!! Keep writing Daniel!!!
+            </div>
+            
+            <div class="entry">
+                <strong>MusicLover99</strong> - <em>January 14, 2026</em><br>
+                The Mr Blue Sky cover is INSANE!!! Daniel's bass voice is incredible!!! 
+                The Krokodiloes are so lucky to have him!!!
+            </div>
+            
+            <div class="entry">
+                <strong>WestwoodAlum</strong> - <em>January 13, 2026</em><br>
+                I went to Westwood Regional too!!! So proud of Daniel for organizing the GoFundMe 
+                for Mr. Chen!!! That was so amazing of him!!!
+            </div>
+            
+            <div class="entry">
+                <strong>BookNerd</strong> - <em>January 12, 2026</em><br>
+                His essay "Where Did All the Fiction in Fiction Go?" is SO GOOD!!! 
+                He really gets literature!!! More essays please!!!
+            </div>
+            
+            <div class="entry">
+                <strong>Anonymous</strong> - <em>January 11, 2026</em><br>
+                Found this page randomly and now I'm obsessed!!! Daniel is so talented!!! 
+                This fan page is AWESOME!!!
+            </div>
+            
+            <div class="entry">
+                <strong>Harvard2029</strong> - <em>January 10, 2026</em><br>
+                Same class as Daniel!!! He's so cool in person too!!! Great writer and performer!!!
+            </div>
+        </div>
+        
+        <div class="construction">
+            <span class="spinning">🚧</span> 
+            MORE CONTENT COMING SOON!!! 
+            <span class="spinning">🚧</span>
+        </div>
+        
+        <hr>
+        
+        <div class="footer">
+            <p>
+                <span class="blink">© 2026</span> Daniel Shotkin Fan Page 
+                <span class="blink">© 2026</span>
+            </p>
+            <p>
+                Made with <span class="emoji">❤️</span> by fans!!! 
+                Last updated: <span class="blink">NOW!!!</span>
+            </p>
+            <p>
+                <span class="spinning">🌟</span> 
+                BEST FAN PAGE EVER!!! 
+                <span class="spinning">🌟</span>
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const counter = document.querySelector('.counter');
+            let count = 1;
+            setInterval(function() {
+                count++;
+                if (counter) {
+                    counter.innerHTML = '<span class="blink">VISITOR #</span> ' + (1337 + count);
+                }
+            }, 5000);
+            
+            let cursorTrail = [];
+            document.addEventListener('mousemove', function(e) {
+                if (Math.random() > 0.95) {
+                    const star = document.createElement('span');
+                    star.innerHTML = '✨';
+                    star.style.position = 'fixed';
+                    star.style.left = e.pageX + 'px';
+                    star.style.top = e.pageY + 'px';
+                    star.style.pointerEvents = 'none';
+                    star.style.fontSize = '20px';
+                    star.style.zIndex = '9999';
+                    document.body.appendChild(star);
+                    
+                    setTimeout(function() {
+                        star.style.opacity = '0';
+                        star.style.transition = 'opacity 1s';
+                        setTimeout(function() {
+                            document.body.removeChild(star);
+                        }, 1000);
+                    }, 100);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
